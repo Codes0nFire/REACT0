@@ -11,8 +11,8 @@ exports.dbconnection= async()=>{
         console.log("connection done lets go ")
     }
    ).catch(
-    (error)=>{
-        console.log(`error is => ${error}`)
+    (dikkat)=>{
+        console.log(`error is => ${dikkat}`)
     }
    )    
 
