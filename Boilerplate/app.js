@@ -1,4 +1,5 @@
 const express=require("express");
+require("./Models/dbconfig").dbconnection();
 // const dotenv=require("dotenv");
 // dotenv.config({path:"./.env"})
 require("dotenv").config({path:"./.env"});
